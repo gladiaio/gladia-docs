@@ -1,8 +1,14 @@
 # Build your first AI APP
 
-## Getting Super Powers
+## General rule
 
-Becoming a super hero is a fairly straight forward process:
+Creating your first API start with the qualification of the type of problem you are solving.
+
+* [ ] Define your INPUT type (Image / Sound / Text / Video)
+* [ ] Define your OUTPUT type (Image / Sound / Text / Video)
+* [ ] Define the task you are solving within this INPUT/OUTPUT combination
+  * [ ] You can check the list of INPUT / OUTPUT / TASK combinations [here](input-ouput-tasks.md).
+*
 
 ```
 $ give me super-powers

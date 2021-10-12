@@ -6,7 +6,7 @@ The general architecture relies on [FastAPI](https://fastapi.tiangolo.com) frame
 
 ## Application routing
 
-![UnifAI general Scaffoding architecture leveraging FastAPI APIRouter](../.gitbook/assets/unifAI\(1\).svg)
+![UnifAI general Scaffoding architecture leveraging FastAPI APIRouter](../../.gitbook/assets/unifAI\(1\).svg)
 
 We leveraged FastAPI with [FastAPI APIRouteurs](https://fastapi.tiangolo.com/tutorial/bigger-applications/#apirouter) in order to better classify our AI tasks' APIs.
 
@@ -14,7 +14,7 @@ We leveraged FastAPI with [FastAPI APIRouteurs](https://fastapi.tiangolo.com/tut
 
 ## AI APIs classification
 
-All the concept relies on the AI problem definitions being split across INPUT types (image, sound, video or text) and OUTPUT types (image, sound, video or text). See the Input/Output/Task [section](../aipi-basics/input-ouput-tasks.md) for more details.
+All the concept relies on the AI problem definitions being split across INPUT types (image, sound, video or text) and OUTPUT types (image, sound, video or text). See the Input/Output/Task [section](../../aipi-basics/input-ouput-tasks.md) for more details.
 
 ## Application packaging and deployment
 

@@ -1,7 +1,12 @@
 # Table of contents
 
 * [UnifAI Documentation](README.md)
-  * [Architecture](master/architecture.md)
+  * [Architecture](master/architecture/README.md)
+    * [Input Type](master/architecture/input-type.md)
+    * [Output Type](master/architecture/output-type.md)
+    * [Task Router](master/architecture/task-router.md)
+    * [Model](master/architecture/model.md)
+    * [Storing and retrieving your model files](master/architecture/storing-and-retrieving-your-model-files.md)
   * [Developer guide for beginners on contributing to UnifAI](master/developer-guide-for-beginners-on-contributing-to-unifai.md)
   * [License](master/license.md)
 
@@ -9,8 +14,9 @@
 
 * [Overview](aipi-basics/overview.md)
 * [Input / Ouput / Tasks](aipi-basics/input-ouput-tasks.md)
-* [Installation](aipi-basics/install.md)
+* [Installation and deployment](aipi-basics/install.md)
 * [Build your first AI APP](aipi-basics/untitled.md)
+* [Creating a new task](aipi-basics/creating-a-new-task.md)
 * [Compare with other models](aipi-basics/compare-with-other-models.md)
 
 ## API Guide
