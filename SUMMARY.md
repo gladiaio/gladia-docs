@@ -1,9 +1,9 @@
 # Table of contents
 
 * [UnifAI Documentation](README.md)
-  * [License](master/license.md)
   * [Architecture](master/architecture.md)
   * [Developer guide for beginners on contributing to UnifAI](master/developer-guide-for-beginners-on-contributing-to-unifai.md)
+  * [License](master/license.md)
 
 ## Getting started <a href="aipi-basics" id="aipi-basics"></a>
 
