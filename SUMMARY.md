@@ -4,7 +4,7 @@
   * [Architecture](master/architecture/README.md)
     * [Input Type](master/architecture/input-type.md)
     * [Output Type](master/architecture/output-type.md)
-    * [Task Router](master/architecture/task-router.md)
+    * [Model and Task Router](master/architecture/model-and-task-router.md)
     * [Model](master/architecture/model.md)
     * [Storing and retrieving your model files](master/architecture/storing-and-retrieving-your-model-files.md)
   * [Developer guide for beginners on contributing to UnifAI](master/developer-guide-for-beginners-on-contributing-to-unifai.md)
