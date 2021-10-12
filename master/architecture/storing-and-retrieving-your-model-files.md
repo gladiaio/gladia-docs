@@ -45,3 +45,5 @@ Pushing Model to HuggingFace Model Hub
 W\&B provides [artifact](https://wandb.ai/site/artifacts) management. Check out their docs regarding model uploads
 
 [https://docs.wandb.ai/artifacts](https://docs.wandb.ai/artifacts)
+
+{% embed url="https://www.youtube.com/watch?v=Hd94gatGMic" %}
