@@ -24,17 +24,25 @@
 ***
 
 * [Endpoints](untitled-1/README.md)
+  * [input : Text](untitled-1/input-text/README.md)
+    * [output : text](untitled-1/input-text/output-text/README.md)
+      * [Autocorrect](untitled-1/input-text/output-text/autocorrect.md)
+      * [Boolean Question Generation](untitled-1/input-text/output-text/boolean-question-generation.md)
+      * [Dependency Tracking](untitled-1/input-text/output-text/dependency-tracking.md)
+      * [Emotion Recognition](untitled-1/input-text/output-text/emotion-recognition.md)
+      * [Entity Extraction](untitled-1/input-text/output-text/entity-extraction.md)
+      * [Named Entity Recognition](untitled-1/input-text/output-text/named-entity-recognition.md)
   * [input : Image](untitled-1/input-image/README.md)
-    * [output: text](untitled-1/input-image/output-text/README.md)
-      * [Optical Character Recognition (OCR)](untitled-1/input-image/output-text/optical-character-recognition-ocr.md)
+    * [output : text](untitled-1/input-image/output-text/README.md)
       * [ASCIIfy](untitled-1/input-image/output-text/asciify.md)
-    * [output: Image](untitled-1/input-image/output-image/README.md)
+      * [Optical Character Recognition (OCR)](untitled-1/input-image/output-text/optical-character-recognition-ocr.md)
+    * [output : Image](untitled-1/input-image/output-image/README.md)
       * [Background Removal](untitled-1/input-image/output-image/background-removal.md)
-      * [Image Colorization](untitled-1/input-image/output-image/image-colorization.md)
       * [Face blurring](untitled-1/input-image/output-image/face-blurring.md)
+      * [Image Colorization](untitled-1/input-image/output-image/image-colorization.md)
       * [Image Restoration](untitled-1/input-image/output-image/image-restoration.md)
-      * [Super Resolution](untitled-1/input-image/output-image/super-resolution.md)
       * [Image Uncolorization](untitled-1/input-image/output-image/image-uncolorization.md)
+      * [Super Resolution](untitled-1/input-image/output-image/super-resolution.md)
 
 ## Going Further
 
