@@ -6,7 +6,7 @@ The general architecture relies on [FastAPI](https://fastapi.tiangolo.com) frame
 
 ## Application routing
 
-![UnifAI general Scaffoding architecture leveraging FastAPI APIRouter](../../.gitbook/assets/unifAI\(1\).svg)
+![UnifAI general Scaffoding architecture leveraging FastAPI APIRouter](<../../.gitbook/assets/Untitled Diagram.drawio(3) (1).png>)
 
 We leveraged FastAPI with [FastAPI APIRouteurs](https://fastapi.tiangolo.com/tutorial/bigger-applications/#apirouter) in order to better classify our AI tasks' APIs.
 
