@@ -1,4 +1,4 @@
-# Task Router
+# Model and Task Router
 
 The task router is the brain of the framework. This is where you API requests lands and is redirected to the appropriate Model.
 
