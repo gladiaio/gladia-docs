@@ -22,9 +22,9 @@ All the framework (for now) is embedded in a [Docker](https://github.com/jquegui
 
 All the UnifAI AI APIs can be run with a simple command
 
+```shell
+git clone https://github.com/jqueguiner/unifai-apis-core.git
+cd unifai-apis-core/api
+docker build -t unifAI-APIs -f gpu.Dockerfile.full .
+docker run -d -p 8080:80 -v $PWD:/app unifAI-APIs
 ```
-$ git clone https://github.com/jqueguiner/unifai-apis-core.git
-$ cd unifai-apis-core/api && docker build -t unifAI-APIs -f gpu.Dockerfile.full .
-$ docker run -d -p 8080:80 -v $PWD:/app unifAI-APIs
-```
-
