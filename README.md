@@ -9,11 +9,9 @@ description: >-
 
 ## AI accessible in just few lines of code for your applications
 
+![](<.gitbook/assets/Untitled Diagram.drawio(3) (1).png>)
 
-
-![](<.gitbook/assets/Capture d’écran 2021-10-06 à 09.10.19.png>)
-
-UnifAI is  Fast and easy to deploy AI APIs framework.
+UnifAI is Fast and easy to deploy AI APIs framework.
 
 It has been designed to help researchers compare their qualitative results against other models for a given task.
 
@@ -23,7 +21,7 @@ On the other hand it has been designed with a web developper as a end user in mi
 
 * All AI APIs in one place.
 * No AI skills needed to leverage AI capabilities such as :
-  * Speech  to Text / Speech recognition
+  * Speech to Text / Speech recognition
   * Optical Character Recognition
   * Speech Generation
   * Translation

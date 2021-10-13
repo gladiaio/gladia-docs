@@ -21,8 +21,6 @@
 
 ## API Guide
 
-***
-
 * [Endpoints](untitled-1/README.md)
   * [input : Text](untitled-1/input-text/README.md)
     * [output : text](untitled-1/input-text/output-text/README.md)
