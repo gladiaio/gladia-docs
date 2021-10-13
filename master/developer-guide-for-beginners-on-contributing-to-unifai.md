@@ -17,7 +17,12 @@ In general for a developer needing a custom library it's recommended to add it t
 ```bash
 git clone https://github.com/jqueguiner/unifai-apis-core.git
 cd unifai-apis-core/api
-docker build -t unifAI-APIs -f gpu.Dockerfile.full .
+
+#building the development Docker Image
+docker build -t unifAI-APIs -f gpu.Dockerfile.dev .
+
+#building the production Docker Image
+docker build -t unifAI-APIs -f gpu.Dockerfile.prod .
 ```
 
 ## Running the Docker image
@@ -27,7 +32,7 @@ docker build -t unifAI-APIs -f gpu.Dockerfile.full .
 This can help you for live debug as you can edit you local code and see changes occuring live thanks to the volume attachement (-v).
 
 ```shell
-docker run -it -p 8080:80 -v $PWD:/app unifAI-APIs
+docker run -it --name unifAI-APIs -p 8080:80 -v $PWD:/app unifAI-APIs
 ```
 
 ### Running in production
