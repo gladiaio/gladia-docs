@@ -27,30 +27,8 @@ docker build -t unifAI-APIs -f gpu.Dockerfile.prod .
 
 ## Running the Docker image
 
-### Running for realtime development
-
-This can help you for live debug as you can edit you local code and see changes occuring live thanks to the volume attachement (-v).
-
-```shell
-docker run -it --name unifAI-APIs -p 8080:80 -v $PWD:/app unifAI-APIs
-```
-
-### Running in production
-
-In this case the code is fully packaged in the Docker Image and has no data link with the host (meaning no attached volume). Also you don't see live logs from the container because you ran it in a detached (-d) mode.
-
-```
-docker run -d --name unifAI-APIs -p 8080:80 unifAI-APIs
-```
-
-```shell
-# checking that your container actually runs
-docker ps
-```
-
-```
-# checking the live logs from your container
-docker logs -f unifAI-APIs
-```
+{% content-ref url="../aipi-basics/install.md" %}
+[install.md](../aipi-basics/install.md)
+{% endcontent-ref %}
 
  
