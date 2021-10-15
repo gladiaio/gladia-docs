@@ -49,6 +49,6 @@ Join us on Discord : [here](https://discord.gg/Q8nKH7xfAx)
 
 All UnifAI APIs are open source under [MIT license](https://choosealicense.com/licenses/mit/).
 
-{% embed url="https://github.com/jqueguiner/unifai-apis-core" %}
+{% embed url="https://github.com/theunifai/unifai-apis-core" %}
 
 ## Contribution
