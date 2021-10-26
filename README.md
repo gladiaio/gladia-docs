@@ -9,7 +9,7 @@ description: >-
 
 ## AI accessible in just few lines of code for your applications
 
-![](<.gitbook/assets/Untitled Diagram.drawio(3) (1).png>)
+![](.gitbook/assets/unifAI.drawio.png)
 
 UnifAI is Fast and easy to deploy AI APIs framework.
 
