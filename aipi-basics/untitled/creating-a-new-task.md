@@ -73,5 +73,7 @@ TaskRouter(router=router, input=input, output=output, default_model="esrgan")
 
 ### Need help ?
 
+If you need any help create a new Issue [here](https://github.com/theunifai/unifai-apis-core/issues/new) or fill this form
+
 {% embed url="https://6k1rdwg6stf.typeform.com/to/G5n56NCr" %}
 

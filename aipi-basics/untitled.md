@@ -4,10 +4,10 @@
 
 Creating your first API start with the qualification of the type of problem you are solving.
 
-1. Define your [INPUT type](../../master/architecture/input-type.md) (Image / Sound / Text / Video)
-2. Define your [OUTPUT type](../../master/architecture/output-type.md) (Image / Sound / Text / Video)
+1. Define your [INPUT type](../master/architecture/input-type.md) (Image / Sound / Text / Video)
+2. Define your [OUTPUT type](../master/architecture/output-type.md) (Image / Sound / Text / Video)
 3. Define the task you are solving within this INPUT/OUTPUT combination
-   1. You can check the list of INPUT / OUTPUT / TASK combinations [here](../input-ouput-tasks.md).
+   1. You can check the list of INPUT / OUTPUT / TASK combinations [here](input-ouput-tasks.md).
    2. you can check existing endpoints [here](broken-reference).
 4. There are 2 ways to handle API creation:
    1. Using the build in packages nothing to install but you are not sure 100% of the compatiblity of your API. Still it should be able to handle 95% of use cases
