@@ -15,7 +15,9 @@
 * [Overview](aipi-basics/overview.md)
 * [Input / Ouput / Tasks](aipi-basics/input-ouput-tasks.md)
 * [Installation and deployment](aipi-basics/install.md)
-* [Build your first AI APP](aipi-basics/untitled.md)
+* [Build your first AI APP](aipi-basics/untitled/README.md)
+  * [Using the default environment](aipi-basics/untitled/using-the-default-environment.md)
+  * [Creating a new task](aipi-basics/untitled/creating-a-new-task.md)
 * [Creating a new task](aipi-basics/creating-a-new-task.md)
 * [Compare with other models](aipi-basics/compare-with-other-models.md)
 

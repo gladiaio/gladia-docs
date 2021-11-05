@@ -1,4 +1,4 @@
-# Model
+# How Models work
 
 ## Model Definition
 
@@ -14,22 +14,22 @@ A model represents a specific implementation of a given task over a [combination
 
 The folder and file structure should be the following:
 
-![Example of the directory structure for a custom model named "my_model" for an IMAGE to TEXT combination for the image recognition task](<../../.gitbook/assets/Capture d’écran 2021-10-12 à 14.35.54.png>)
+![Example of the directory structure for a custom model named "my\_model" for an IMAGE to TEXT combination for the image recognition task](<../../.gitbook/assets/Capture d’écran 2021-10-12 à 14.35.54.png>)
 
 ## Core Model Files
 
 As presented above :
 
-1. a folder with the name of your model should be created within the associated task folder (image_recognitions in the example).
+1. a folder with the name of your model should be created within the associated task folder (image\_recognitions in the example).
 2. a python file with the name of your model should be placed in your model folder. The only thing the framework needs if a predict function inside this python file. Below is an example for a sentiment analysis model named _nlptown-bert-base-multilingual-uncased-sentiment_
 
 {% embed url="https://gist.github.com/jqueguiner/03229ca66a2718621b33c11bdcb15259" %}
 
 ## Additionnal environment files
 
-1. a \___init\_\__.py file should also be placed in your model folder to indicate to the system that it's a python package directory.
+1. a \_\_\_init\_\_\_.py file should also be placed in your model folder to indicate to the system that it's a python package directory.
 2. you can add as many files/folders you want in this directory it's yours ! However keep in mind that it's better to store your model file (that can be huge) outside of the framework (see the Storing and retrieving your model files [section](storing-and-retrieving-your-model-files.md))
-3. If you want your model folder/package directory to behave independently relating to import (importing files and folder within this folder) use the following configuration for your \___init\_\_.py file:_
+3. If you want your model folder/package directory to behave independently relating to import (importing files and folder within this folder) use the following configuration for your \_\__init\_\_.py file:_
 
 {% embed url="https://gist.github.com/jqueguiner/4a7371a38a3ccd5d276c07bb954ad408" %}
 
