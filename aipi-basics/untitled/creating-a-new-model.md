@@ -15,8 +15,8 @@ If the model you want to implement (for instance ersgan) belongs to a task that 
 
 Please refere to the Creating a new task guide
 
-{% content-ref url="../../creating-a-new-task.md" %}
-[creating-a-new-task.md](../../creating-a-new-task.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 #### 3) Create a model folder in the task directory to host your API
@@ -40,5 +40,15 @@ The python file that will be the entrypoint of your API should be named like you
 $ touch unifai-apis-core/src/apis/image/image/super-resolutions/my-new-model/my-new-model.py
 ```
 
+#### 5) start a docker to develop your application
 
+```
+$ cd unifai-apis-core/src
+$ docker build -t unifai-apis -f gpu.Dockerfile . 
+$ docker run -it -v $PWD:/app -p 8080:80 unifai-apis /bin/bash
+```
+
+You can now access the APIs at [http://localhost:8080/docs](http://localhost:8080/docs) or [http://localhost:8080/redoc](http://localhost:8080/redoc)
+
+your model you be listed under the right **input/output/task **tag.
 
