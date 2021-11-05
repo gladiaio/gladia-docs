@@ -15,8 +15,8 @@ If the model you want to implement (for instance ersgan) belongs to a task that 
 
 Please refere to the Creating a new task guide
 
-{% content-ref url="../creating-a-new-task.md" %}
-[creating-a-new-task.md](../creating-a-new-task.md)
+{% content-ref url="../../creating-a-new-task.md" %}
+[creating-a-new-task.md](../../creating-a-new-task.md)
 {% endcontent-ref %}
 
 #### 3) Create a model folder in the task directory to host your API
