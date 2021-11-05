@@ -45,6 +45,14 @@ On the other hand it has been designed with a web developper as a end user in mi
 Join us on Discord : [here](https://discord.gg/Q8nKH7xfAx)
 {% endhint %}
 
+{% hint style="success" %}
+Subscribe to our Newsletter : [here](http://eepurl.com/hMFVAH)
+{% endhint %}
+
+
+
+
+
 ## Source Code
 
 All UnifAI APIs are open source under [MIT license](https://choosealicense.com/licenses/mit/).
