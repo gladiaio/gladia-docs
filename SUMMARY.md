@@ -94,27 +94,6 @@
   * [Web APP with Django](tutorials/python/web-app-with-django.md)
   * [Web APP with Native Python](tutorials/python/web-app-with-native-python.md)
 
-## ADD AI APIs <a href="add-apis" id="add-apis"></a>
-
-* [Out Of the Box Integrations](add-apis/out-of-the-box-integrations/README.md)
-  * [Hugging Face](add-apis/out-of-the-box-integrations/hugging-face.md)
-  * [Torch Hub](add-apis/out-of-the-box-integrations/torch-hub.md)
-  * [ONNX](add-apis/out-of-the-box-integrations/onnx.md)
-  * [FastAI](add-apis/out-of-the-box-integrations/fastai.md)
-  * [MxNet](add-apis/out-of-the-box-integrations/mxnet.md)
-* [Custom Integrations](add-apis/custom-integrations/README.md)
-  * [Pytorch](add-apis/custom-integrations/pytorch.md)
-  * [Tensorflow](add-apis/custom-integrations/tensorflow.md)
-  * [Fastai](add-apis/custom-integrations/fastai.md)
-* [Examples](add-apis/examples/README.md)
-  * [Text to Text](add-apis/examples/text-to-text/README.md)
-    * [HuggingFace Transformer Translation](add-apis/examples/text-to-text/huggingface-transformer-translation.md)
-    * [HuggingFace Transformers NER](add-apis/examples/text-to-text/huggingface-transformers-ner.md)
-  * [Image to Text](add-apis/examples/image-to-text/README.md)
-    * [EfficientNet](add-apis/examples/image-to-text/efficientnet.md)
-  * [Image to Image](add-apis/examples/image-to-image/README.md)
-    * [Deoldify](add-apis/examples/image-to-image/deoldify.md)
-
 ## USE UNIFAI APIs <a href="integrations" id="integrations"></a>
 
 * [For App/Web Developers](integrations/for-app-web-developers/README.md)
@@ -127,13 +106,13 @@
 * [For Data Scientists](integrations/for-data-scientists/README.md)
   * [Compare SOTA](integrations/for-data-scientists/compare-sota.md)
   * [Gradio](integrations/for-data-scientists/gradio.md)
-  * [Detecting Drift](integrations/for-data-scientists/detecting-drift.md)
-  * [Weights & Biaises](integrations/for-data-scientists/weights-and-biaises.md)
+  * [Streamlit](integrations/for-data-scientists/streamlit.md)
 * [For Researchers](integrations/for-researchers/README.md)
   * [Compare SOTA](integrations/for-researchers/compare-sota.md)
 
 ## AIPI SDK Clients <a href="sdk-clients" id="sdk-clients"></a>
 
+* [General consideration](sdk-clients/general-consideration.md)
 * [Go](sdk-clients/untitled-1.md)
 * [PHP](sdk-clients/untitled.md)
 * [Python](sdk-clients/python.md)
