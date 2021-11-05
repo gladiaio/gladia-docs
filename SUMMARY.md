@@ -106,16 +106,13 @@
 * [For Data Scientists](integrations/for-data-scientists/README.md)
   * [Compare SOTA](integrations/for-data-scientists/compare-sota.md)
   * [Gradio](integrations/for-data-scientists/gradio.md)
-  * [Streamlit](integrations/for-data-scientists/streamlit.md)
+  * [Streamlit](integrations/for-data-scientists/weights-and-biaises.md)
 * [For Researchers](integrations/for-researchers/README.md)
   * [Compare SOTA](integrations/for-researchers/compare-sota.md)
 
 ## AIPI SDK Clients <a href="sdk-clients" id="sdk-clients"></a>
 
 * [General consideration](sdk-clients/general-consideration.md)
-* [Go](sdk-clients/untitled-1.md)
-* [PHP](sdk-clients/untitled.md)
-* [Python](sdk-clients/python.md)
 
 ## Contributing
 
