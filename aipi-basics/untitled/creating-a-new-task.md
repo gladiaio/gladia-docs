@@ -71,6 +71,18 @@ router = APIRouter()
 TaskRouter(router=router, input=input, output=output, default_model="esrgan")
 ```
 
+### Create the associated task folder to host the models APIs
+
+The folder created under the right input/output taxonomy should be the plural form of the task.
+
+```shell
+# create the task folder
+$ mkdir -p unifai-apis-core/src/apis/image/image/super-resolutions
+
+# register the task folder in the Application
+$ touch unifai-apis-core/src/apis/image/image/super-resolutions/__init__.py
+```
+
 ### Need help ?
 
 If you need any help create a new Issue [here](https://github.com/theunifai/unifai-apis-core/issues/new) or fill this form
