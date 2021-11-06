@@ -4,6 +4,10 @@ In case the Task in the INPUT/OUTPUT combination doesn't exists don't hesitate t
 
 
 
+## Using the scaffolder
+
+![](../../.gitbook/assets/scaffold.gif)
+
 ## General concepts
 
 1\) add a file named with the task name for instance : super-resolution.py in image/image
