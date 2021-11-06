@@ -1,18 +1,7 @@
 # Change Log
 
-## 15.0.0 - 2042-12-03
-
-### Fixed
-
-* Removed humans, they weren't doing fine with animals.
+## 0.0.1 - 2021-11-06
 
 ### Changed
 
-* Animals are now super cute, all of them.
-
-## 14.0.0 - 2042-10-06
-
-### Added
-
-* Introduced animals into the world, we believe they're going to be a neat addition.
-
+* Added API scaffolder
