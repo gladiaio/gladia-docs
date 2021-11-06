@@ -44,9 +44,13 @@
 
 ### Fixed
 
-* \[Doc] Fix Onboarding, make it reviewed by new comers
+
 
 ### Changed
+
+* :warning:**Breaking change **\[TASK\_ROUTEUR] Changed input to inputs naming convention
+  * [#83](https://github.com/theunifai/unifai-apis-core/pull/83)
+  * [#8](https://github.com/theunifai/unifai-api-utils/pull/8)
 
 ### New
 
