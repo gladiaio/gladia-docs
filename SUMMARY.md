@@ -69,7 +69,7 @@
 ## Going Further
 
 * [Roadmap](going-further/roadmap.md)
-* [Change Log](going-further/change-log.md)
+* [Change Log and future work](going-further/change-log.md)
 
 ## Tutorials
 
