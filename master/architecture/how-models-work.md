@@ -6,7 +6,7 @@ For a given AI Task multiple Models can be applied.
 
 Usually researchers are trying to outperform existing models by comparing Quantitatively. A great resource to compare tasks and quantitative performance is [paperswithcode.com](https://paperswithcode.com).
 
-However, so far, nobody is focussing on qualitative results. One of the reason of the creation of UnifAI was to be able to compare models Apple to Apple qualitatively. Persived quality is what users will face compared to Quantative theorical results.
+However, so far, nobody is focussing on qualitative results. One of the reason of the creation of **Gladia** was to be able to compare models Apple to Apple qualitatively. Persived quality is what users will face compared to Quantative theorical results.
 
 A model represents a specific implementation of a given task over a [combination of INPUT/OUTPUT](../../aipi-basics/input-ouput-tasks.md).
 

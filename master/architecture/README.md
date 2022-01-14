@@ -20,11 +20,11 @@ All the concept relies on the AI problem definitions being split across INPUT ty
 
 All the framework (for now) is embedded in a [Docker](https://github.com/jqueguiner/unifai-apis-core/blob/main/api/gpu.Dockerfile.full) running a [uvicorn](https://www.uvicorn.org) server.
 
-All the UnifAI AI APIs can be run with a simple command
+All the **Gladia** AI APIs can be run with a simple command
 
 ```shell
-git clone https://github.com/jqueguiner/unifai-apis-core.git
-cd unifai-apis-core/api
-docker build -t unifAI-APIs -f gpu.Dockerfile.full .
-docker run -d -p 8080:80 -v $PWD:/app unifAI-APIs
+git clone https://github.com/gladiaio/gladia.git
+cd gladia/api
+docker build -t gladia -f gpu.Dockerfile.full .
+docker run -d -p 8080:80 -v $PWD:/app gladia
 ```

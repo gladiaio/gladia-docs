@@ -1,16 +1,16 @@
 # Table of contents
 
-* [UnifAI Documentation](README.md)
+* [Gladia Documentation](README.md)
   * [Architecture](master/architecture/README.md)
     * [Input Type](master/architecture/input-type.md)
     * [Output Type](master/architecture/output-type.md)
     * [Model and Task Router](master/architecture/task-router.md)
     * [How Models work](master/architecture/how-models-work.md)
     * [Storing and retrieving your model files](master/architecture/storing-and-retrieving-your-model-files.md)
-  * [Developer guide for beginners on contributing to UnifAI](master/developer-guide-for-beginners-on-contributing-to-unifai.md)
+  * [Developer guide for beginners on contributing to Gladia](master/developer-guide-for-beginners-on-contributing-to-unifai.md)
   * [License](master/license.md)
 
-## Getting started <a href="aipi-basics" id="aipi-basics"></a>
+## Getting started <a href="#aipi-basics" id="aipi-basics"></a>
 
 * [Overview](aipi-basics/overview.md)
 * [Input / Ouput / Tasks](aipi-basics/input-ouput-tasks.md)
@@ -94,7 +94,7 @@
   * [Web APP with Django](tutorials/python/web-app-with-django.md)
   * [Web APP with Native Python](tutorials/python/web-app-with-native-python.md)
 
-## USE UNIFAI APIs <a href="integrations" id="integrations"></a>
+## USE UNIFAI APIs <a href="#integrations" id="integrations"></a>
 
 * [For App/Web Developers](integrations/for-app-web-developers/README.md)
   * [Node JS](integrations/for-app-web-developers/node-js.md)
@@ -110,7 +110,7 @@
 * [For Researchers](integrations/for-researchers/README.md)
   * [Compare SOTA](integrations/for-researchers/compare-sota.md)
 
-## AIPI SDK Clients <a href="sdk-clients" id="sdk-clients"></a>
+## AIPI SDK Clients <a href="#sdk-clients" id="sdk-clients"></a>
 
 * [General consideration](sdk-clients/general-consideration.md)
 

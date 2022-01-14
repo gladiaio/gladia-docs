@@ -1,17 +1,17 @@
 ---
 description: >-
-  UnifAI API provides an end-to-end platform for AI inference. UnifAI is the
+  Gladia API provides an end-to-end platform for AI inference. UnifAI is the
   only API platform to allow the hosting of all AI task at the same time and
   helps you find the best model that fits your needs
 ---
 
-# UnifAI Documentation
+# Gladia Documentation
 
 ## AI accessible in just few lines of code for your applications
 
 ![](.gitbook/assets/unifAI.drawio.png)
 
-UnifAI is Fast and easy to deploy AI APIs framework.
+**Gladia** is Fast and easy to deploy AI APIs framework.
 
 It has been designed to help researchers compare their qualitative results against other models for a given task.
 
@@ -49,14 +49,10 @@ Join us on Discord : [here](https://discord.gg/Q8nKH7xfAx)
 Subscribe to our Newsletter : [here](http://eepurl.com/hMFVAH)
 {% endhint %}
 
-
-
-
-
 ## Source Code
 
-All UnifAI APIs are open source under [MIT license](https://choosealicense.com/licenses/mit/).
+All **Gladia** APIs are open source under [MIT license](https://choosealicense.com/licenses/mit/).
 
-{% embed url="https://github.com/theunifai/unifai-apis-core" %}
+{% embed url="https://github.com/gladiaio/gladia" %}
 
 ## Contribution

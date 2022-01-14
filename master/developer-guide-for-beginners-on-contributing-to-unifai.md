@@ -1,10 +1,10 @@
 ---
 description: >-
   Assuming you have some basic knowledge of Python, this guide should help you
-  understand how to make code changes to UnifAI.
+  understand how to make code changes to Gladia.
 ---
 
-# Developer guide for beginners on contributing to UnifAI
+# Developer guide for beginners on contributing to Gladia
 
 ## Librairies
 
@@ -15,14 +15,14 @@ In general for a developer needing a custom library it's recommended to add it t
 ## Building the Docker image
 
 ```bash
-git clone https://github.com/jqueguiner/unifai-apis-core.git
-cd unifai-apis-core/api
+git clone https://github.com/gladiaio/gladia.git
+cd gladia/api
 
 #building the development Docker Image
-docker build -t unifAI-APIs -f gpu.Dockerfile.dev .
+docker build -t gladia -f gpu.Dockerfile.dev .
 
 #building the production Docker Image
-docker build -t unifAI-APIs -f gpu.Dockerfile.prod .
+docker build -t gladia -f gpu.Dockerfile.prod .
 ```
 
 ## Running the Docker image
@@ -30,5 +30,3 @@ docker build -t unifAI-APIs -f gpu.Dockerfile.prod .
 {% content-ref url="../aipi-basics/install.md" %}
 [install.md](../aipi-basics/install.md)
 {% endcontent-ref %}
-
- 
