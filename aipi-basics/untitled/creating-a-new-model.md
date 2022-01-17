@@ -49,4 +49,4 @@ $ docker run -it -v $PWD:/app -p 8080:80 gladia /bin/bash
 
 You can now access the APIs at [http://localhost:8080/docs](http://localhost:8080/docs) or [http://localhost:8080/redoc](http://localhost:8080/redoc)
 
-your model you be listed under the right \*\*input/output/task \*\*tag.
+your model you be listed under the right _input/output/task_ tag.
