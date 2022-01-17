@@ -4,7 +4,7 @@ It can happen that the default environment doesnt fit your needs in this case yo
 
 #### Environment file
 
-An on the fly custom environment will be spawn  for your API based on the pipenv mechanism.
+An on the fly custom environment will be spawn for your API based on the pipenv mechanism.
 
 You can set a custom python version as well as custom packages.
 
@@ -21,12 +21,11 @@ You are all set you can now run your API within the docker.
 
 ```
 # build the docker image
-$ docker build -t unifai-apis -f gpu.Dockerfile . 
+$ docker build -t gladia -f gpu.Dockerfile . 
 
 # run docker for dev
-$ docker run -it -v $PWD:/app -p 8080:80 unifai-apis /bin/bash
+$ docker run -it -v $PWD:/app -p 8080:80 gladia /bin/bash
 
 # run the application server
 $ uvicorn main:app --host 0.0.0.0 --port 80
 ```
-
