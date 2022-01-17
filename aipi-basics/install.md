@@ -5,15 +5,15 @@ Considering the complexity of the GPU driver matching the CUDA version, the CuDN
 ## Building the Docker image
 
 ```shell
-git clone https://github.com/jqueguiner/unifai-apis-core.git
-cd unifai-apis-core/api
+git clone https://github.com/gladiaio/gladia.git
+cd gladia/api
 
 #building the development Docker Image
-docker build -t unifai-apis -f gpu.Dockerfile.dev .
+docker build -t gladia -f gpu.Dockerfile.dev .
 
 # OR
 #building the production Docker Image
-docker build -t unifai-apis -f gpu.Dockerfile.prod .
+docker build -t gladia -f gpu.Dockerfile.prod .
 ```
 
 ## Running the Docker image
@@ -23,7 +23,7 @@ docker build -t unifai-apis -f gpu.Dockerfile.prod .
 This can help you for live debug as you can edit you local code and see changes occurring live thanks to the volume attachment (-v).
 
 ```shell
-docker run -it --name unifai-apis -p 8080:80 -v $PWD:/app unifai-apis
+docker run -it --name gladia -p 8080:80 -v $PWD:/app gladia-apis
 # OR more simply use our wrapper
 ./build_and_dev.sh
 ```
@@ -33,7 +33,7 @@ docker run -it --name unifai-apis -p 8080:80 -v $PWD:/app unifai-apis
 In this case the code is fully packaged in the Docker Image and has no data link with the host (meaning no attached volume). Also you don't see live logs from the container because you ran it in a detached (-d) mode.
 
 ```shell
-docker run -d --name unifai-apis -p 8080:80 unifai-apis
+docker run -d --name gladia -p 8080:80 unifai
 # OR more simply use our wrapper
 ./build_and_prod.sh
 ```
@@ -47,5 +47,5 @@ docker ps
 
 ```
 # checking the livelogs from your container
-docker logs -f unifai-apis
+docker logs -f gladia
 ```
