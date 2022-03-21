@@ -6,14 +6,14 @@ Considering the complexity of the GPU driver matching the CUDA version, the CuDN
 
 ```shell
 git clone https://github.com/gladiaio/gladia.git
-cd gladia/api
+cd gladia/src
 
 #building the development Docker Image
-docker build -t gladia -f gpu.Dockerfile.dev .
+docker build --target dev -t gladia -f gpu.Dockerfile .
 
 # OR
 #building the production Docker Image
-docker build -t gladia -f gpu.Dockerfile.prod .
+docker build --target prod -t gladia -f gpu.Dockerfile .
 ```
 
 ## Running the Docker image
