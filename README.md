@@ -42,7 +42,7 @@ On the other hand it has been designed with a web developper as a end user in mi
 ## Community
 
 {% hint style="success" %}
-Join us on Discord : [here](https://discord.gg/Q8nKH7xfAx)
+Join us on Discord : [here](https://discord.gg/HeuCTxnXrE)
 {% endhint %}
 
 {% hint style="success" %}
