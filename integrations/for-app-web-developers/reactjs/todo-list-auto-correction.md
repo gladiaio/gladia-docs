@@ -25,7 +25,7 @@ git clone https://github.com/gladiaio/gladia-sdk.git /tmp/gladia-sdk
 # Install Gladia's JS client and its dependencies
 npm install --save /tmp/gladia-sdk/clients/javascript
 npm install querystring
-npm installb superagent
+npm install superagent
 
 # Install project's dependencies
 npm install
