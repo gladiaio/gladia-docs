@@ -15,7 +15,7 @@ description: >-
 
 It has been designed to help researchers compare their qualitative results against other models for a given task.
 
-On the other hand it has been designed with a web developper as a end user in mind. Making sure developper with no/low AI knowledge can leverage AI new capabilities in a few minutes.
+On the other hand it has been designed with a web developper as a end user in mind. Making sure developer with little to no AI knowledge can leverage AI new capabilities in a few minutes.
 
 ## Features
 
